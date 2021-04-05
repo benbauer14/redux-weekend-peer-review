@@ -88,40 +88,42 @@ First must be complete for score of _5 - Exceeds Expectations_
 ## Markdown
 
 ```
-Hey ___,
+Hey ...,
 
 General Feedback.
 
 ---
-| Functional Requirements | Complete? |
+| Functional Requirements | Complete? | Y
 | --- | :---: |
-| Multi page form with client side routing and navigation (next button) | no |
-| Data stored in Redux when navigating from page to page | no |
-| User is notified when trying to leave a blank score | no |
-| Review Component displays scores and comments from current redux state | no |
-| Submit button sends data to the server via Axios | no |
-| Confirmaion Page displays after data is POSTed to the server | no |
-| Button on Confirmation Page clears Redux and starts a new survey | no |
-| Views are broken down into components | no |
+| Multi page form with client side routing and navigation (next button) | yes |
+| Data stored in Redux when navigating from page to page | yes |
+| User is notified when trying to leave a blank score | yes? – user cannot proceed but no alert |
+| Review Component displays scores and comments from current redux state | yes |
+| Submit button sends data to the server via Axios | yes |
+| Confirmaion Page displays after data is POSTed to the server | yes |
+| Button on Confirmation Page clears Redux and starts a new survey | no – returns to homepage but does not appear to reset redux to initial state |
+| Views are broken down into components | yes |
 
 ---
 ### Notes:
+Overall good functionality. I could enter any value that I wanted for the ratings so I gave a 10 rating on how I was feeling. Also, an alert may be a good warning that the user can’t proceed but the user was unable to move forward. The redux was not reset after returning home. All in all, the basic functionality was good and worked as described.
 
 Notes on the above Functional Requirements.
 
 ---
 | General Items | Complete? |
 | --- | :---: |
-| More than 15 git commits | no |
-| Commits are descriptive of the changes made or feature added | no |
+| More than 15 git commits | yes - 22 |
+| Commits are descriptive of the changes made or feature added | yes |
 | Readme file updated | no |
-| Appropriate amount of code comments | no |
-| Code is consistently formatted | no |
-| Server code organized with router & module files | no |
+| Appropriate amount of code comments | no – very few comments throughout app |
+| Code is consistently formatted | yes |
+| Server code organized with router & module files | yes |
 
 ---
 ### Notes:
 
 Notes on General Items
+Good number of commits that were well described. Readme file needs updating especially if it is a public repo. Also, more comments would be good for anyone less familiar with the code. Great formatting and easy to follow routes. Code is clean and easy to follow.
+![image](https://user-images.githubusercontent.com/76824772/113595506-b96b9780-95fe-11eb-999b-2bfcb55a364f.png)
 
-```
